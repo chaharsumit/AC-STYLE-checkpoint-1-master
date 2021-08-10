@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Custom CSS */
+
+#home{
+  line-height: 1.5;
+  font-size: 16px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 100px;
+}
+
+/* horizontal rule styling */
+
+hr{
+  width: 1000px;
+  border: 0.5px dashed #c1c2c2;
+  margin: 50px auto;
+}
+
+/* header and navbar styles */
+
+.header{
+  background-color: #09194c;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-item{
+  margin: 0 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.active{
+  color: #52bb3b;
+}
+
+/* section styles */
+
+.exercise-header{
+  padding: 42px 0;
+}
+
+.heading{
+  font-size: 60px;
+  text-align: center;
+}
+
+.section-text{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content-2 .section-text{
+  margin: 50px 0;
+}
+
+/* --------------------- */
+
+/* box styles */
+
+.style-box{
+  width: 250px;
+  height: 250px;
+  border-radius: 2px;
+  background-color: #99D8CA;
+  outline: 10px solid #0D1430;
+  border: 20px solid #5873E2;
+  box-shadow: 0 1px 0 32px #90FFA9;
+  margin: 50px auto 40px auto;
+}
+
+/* section styles */
+
+.content{
+  text-align: center;
+}
+
+
+/* circle styling */
+
+
+.circle-container{
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.circle{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+
+.circle-text{
+  font-size: 20px;
+  vertical-align: middle;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+/* Exercise 2 styles */
+
+.container{
+  width: 660px;
+}
+
+.parent-container{
+  width: 660px;
+  border: 2px solid #000000;
+  margin: 0 auto;
+}
+
+.box{
+  width: 200px;
+  height: 180px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #cccccc;
+}
+
+.box-2{
+  border: 2px solid #000000;
+}
+
+
+
+/* circle colors */
+
+.bg-1{
+  background-color: #99D8CA;
+}
+
+.bg-2{
+  background-color: #0D1430;
+}
+
+.bg-3{
+  background-color: #90FFA9;
+}
+
+.bg-4{
+  background-color: #5873E2;
+}
+
+/* blog page styles */
+
+#blog{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+.blog-container{
+  width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.blog-box{
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+  margin: 0 0 0 40px;
+  vertical-align: top;
+}
+
+.blog-image{
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.blog-heading{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 24px;
+  color: #071645;
+}
+
+.article-heading{
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 24px 0;
+  color: #071645;
+}
+
+.blog-text{
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.btn{
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #52bb3b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.article-link{
+  color: #52bb3b;
+  font-size: 20px;
+}
+
+.article-container{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-container .blog-box{
+  display: block;
+}
+
+
+
+
+
+
+
+

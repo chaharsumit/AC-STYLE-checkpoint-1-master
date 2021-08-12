@@ -83,7 +83,7 @@ hr{
 }
 
 .exercise-header{
-  padding: 42px 0;
+  margin: 50px auto;
 }
 
 .heading{
@@ -106,7 +106,7 @@ hr{
 }
 
 /* --------------------- */
-
+  
 /* box styles */
 
 .style-box{
@@ -117,8 +117,8 @@ hr{
   outline: 10px solid #0D1430;
   border: 20px solid #5873E2;
   box-shadow: 0 1px 0 32px #90FFA9;
-  margin: 50px auto 40px auto;
-}
+  margin: 80px auto;
+} 
 
 .content{
   text-align: center;
@@ -211,7 +211,7 @@ hr{
   width: 450px;
   height: 400px;
   display: inline-block;
-  margin: 0 0 0 40px;
+  margin: 0 20px;
   vertical-align: top;
 }
 
@@ -230,7 +230,7 @@ hr{
 
 .article-heading{
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 900;
   margin: 24px 0;
   color: #071645;
 }
